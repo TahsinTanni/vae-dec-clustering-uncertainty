@@ -7,7 +7,7 @@ The work was conducted as part of a research/assignment project on **non-determi
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 - **Objective:**  
   Design and implement a **non-deterministic deep clustering model** that leverages VAE’s probabilistic latent space and DEC’s clustering optimization.  
@@ -74,6 +74,7 @@ vae-dec-clustering-uncertainty/
 └── .gitignore                     # Ignore unnecessary files
 
 ---
+```
 
 ## Requirements
 
@@ -85,35 +86,38 @@ vae-dec-clustering-uncertainty/
 - scipy
 - matplotlib
 
-Install dependencies:
+**Install dependencies:**
+
 ```bash
 pip install torch torchvision scikit-learn numpy scipy matplotlib
 
 ```
 
-▶️ Usage
-Clone the repository:
+
+## Usage
+
+**Clone the repository:**
+
+```bash
 git clone https://github.com/your-username/vae-dec-clustering-uncertainty.git
 cd vae-dec-clustering-uncertainty
-Run the notebook (recommended):
-jupyter notebook 22101744_CSE425_project.ipynb
-Or run the script (if you export to .py):
-python vae_dec_clustering.py
-📘 Applications
-Automated object categorization (e.g., in computer vision pipelines)
-Anomaly detection via uncertainty estimation
-Active learning: prioritize samples with high uncertainty for labeling
-Data exploration: better understanding of latent space representations
-🔮 Future Work
-Explore alternative encoder/decoder architectures.
-Investigate new clustering loss functions & adaptive weighting schemes.
-Apply model to larger & more diverse datasets (images, text, multimodal).
-Extend to semi-supervised learning with limited labels.
-Develop improved uncertainty utilization for real-world tasks.
-📄 License
-This project is licensed under the MIT License – see the LICENSE file for details.
 
+```
 
+## Applications
 
+- Automated object categorization (e.g., in computer vision pipelines)  
+- Anomaly detection via uncertainty estimation  
+- Active learning: prioritize samples with high uncertainty for labeling  
+- Data exploration: better understanding of latent space representations  
 
+---
+
+## Future Work
+
+- Explore alternative encoder/decoder architectures  
+- Investigate new clustering loss functions & adaptive weighting schemes  
+- Apply model to larger & more diverse datasets (images, text, multimodal)  
+- Extend to semi-supervised learning with limited labels  
+- Develop improved uncertainty utilization for real-world tasks  
 
