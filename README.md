@@ -25,9 +25,10 @@ The work was conducted as part of a research/assignment project on **non-determi
   - **Baseline:** Deterministic VAE (no sampling) + K-Means clustering on latent codes.
 
 - **Loss Function:**  
-  \[
-  L_{total} = L_{recon} + \beta L_{KL} + \gamma L_{cluster}
-  \]
+  ```
+     L_total = L_recon + β·L_KL + γ·L_cluster
+  ```
+
   - Reconstruction loss: Binary Cross-Entropy (BCE)  
   - KL divergence: regularizes latent space  
   - Clustering loss: KL divergence between soft assignments (Q) and target distribution (P)
